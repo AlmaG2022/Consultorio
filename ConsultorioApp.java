@@ -56,9 +56,20 @@ public class ConsultorioApp {
     public static void main(String[] args) {
         ConsultorioApp consultorio = new ConsultorioApp();
 
-        // Lógica para dar de alta doctores, pacientes, crear citas, relacionar citas, etc.
-        
-        // Ejemplo de cómo guardar los datos en un archivo CSV
+        // Ejemplo de cómo agregar algunos datos para probar
+        Doctor doctor1 = new Doctor("1", "Dr. Juan Pérez", "Cardiología");
+        Doctor doctor2 = new Doctor("2", "Dra. María Gómez", "Neurología");
+        Paciente paciente1 = new Paciente("101", "Ana García");
+        Paciente paciente2 = new Paciente("102", "Luis Rodríguez");
+        Cita cita1 = new Cita("1001", "2023-11-25 10:00", "Consulta de rutina");
+
+        consultorio.agregarDoctor(doctor1);
+        consultorio.agregarDoctor(doctor2);
+        consultorio.agregarPaciente(paciente1);
+        consultorio.agregarPaciente(paciente2);
+        consultorio.crearCita(cita1);
+
+        // Guardar los datos en el archivo CSV
         consultorio.guardarDatosEnCSV();
     }
 }
