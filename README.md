@@ -4,7 +4,7 @@ Programa de administración para un consultorio
 
 ## Instalación y Configuración
 
-- Clona este repositorio: `git clone https://github.com/tu-usuario/nombre-repositorio.git`
+- Clona este repositorio: `https://github.com/AlmaG2022/Consultorio`
 - Abre el proyecto en tu IDE preferido.
 
 ## Uso del Programa
