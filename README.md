@@ -13,8 +13,8 @@ Programa de administración para un consultorio
 
 ## Créditos
 
-- Desarrollado por [Tu Nombre].
+- Desarrollado por Jorge Almaguer Sanchez.
 
 ## Licencia
 
-- Este proyecto está bajo la licencia [Tipo de Licencia].
+- Este proyecto está bajo la licencia tipo Apache-2.0.
