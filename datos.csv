@@ -1,0 +1,15 @@
+Doctores
+ID,Nombre Completo,Especialidad
+1,Dr. Juan Pérez,Cardiología
+2,Dra. María Gómez,Neurología
+3,Dr. Carlos Martínez,Oftalmología
+Pacientes
+ID,Nombre Completo
+101,Ana García
+102,Luis Rodríguez
+103,Sofía Fernández
+Citas
+ID,Fecha y Hora,Motivo
+1001,2023-11-25 10:00,Consulta de rutina
+1002,2023-11-26 15:30,Control de presión
+1003,2023-11-28 11:15,Examen de la vista
